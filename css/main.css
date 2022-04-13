@@ -9,7 +9,7 @@ h1 {
 }
 
 .HdImg {
-    height: 100%;
+    height: 10rem;
 }
 body {
     height: 100vh;
@@ -51,4 +51,30 @@ h1, h2, h3 {
 header, #intro {
     width: 90%;
     margin: auto;
+}
+#menu {
+    margin: 2rem 0;
+    background: #555;
+    color: #eee;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+}
+#menu ul {
+    padding:0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#menu a {
+    font-family: "courrier";
+    color: #eee;
+    text-decoration: none;
+    padding: 5rem;
+    transition: all .75s ease-in-out;
+}
+#menu a:hover {
+    background: #eee;
+    color: #555;
 }
